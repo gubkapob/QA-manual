@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#DX-486] DX: возможность добавления нового значения депозита BCC при регистрации аккаунта</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://demo-jira.code61.ru/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DX-486]&nbsp;<a href="http://demo-jira.code61.ru/browse/DX-486">DX: возможность добавления нового значения депозита BCC при регистрации аккаунта</a>
+            <span class="subText">
+               Created: 04/Aug/21                   &nbsp;Updated: 10/Aug/21
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://demo-jira.code61.ru/secure/BrowseProject.jspa?id=10100">DX</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="moiseykonikolay" id="word_reporter_moiseykonikolay" href="http://demo-jira.code61.ru/secure/ViewProfile.jspa?name=moiseykonikolay">Николай М</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-11101-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            trade                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Google Chrome. Версия 92.0.4515.107 (Официальная сборка), (64 бит)</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="http://demo-jira.code61.ru/browse/DX-143">
+                     DX-143                 </a>
+            </td>
+            <td>
+                Requirements
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Критичность:</b></td>
+                <td id="customfield_10200-11101-value" class="value" bgcolor="#ffffff" width="80%">    Showstopper
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>При регистрации аккаунта возможно добавить свое значение депозита BCC в список для дальнейшего выполнения транзакций в созданном аккаунте.<br/>
+ Version - v.1 (Qui)</p>
+
+<p>Предусловия:</p>
+<ol>
+	<li>Переходим по ссылке <a href="https://qa-testing.in.devexperts.com/qswf1/" class="external-link" rel="nofollow">https://qa-testing.in.devexperts.com/qswf1/</a> </li>
+</ol>
+
+
+<p>Шаги воспроизведения:</p>
+<ol>
+	<li>Кликаем по иконке добавления аккаунта.</li>
+	<li>Заполняем все необходимые поля для регистрации.</li>
+	<li>Кликаем правой клавишей по полю выбора депозита и нажимаем на пункт контекстного меню "посмотреть код элемента".</li>
+	<li>В Devtools нажимаем правой кнопкой по элементу:
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+&lt;select id=<span class="code-quote">"desiredDeposit"</span> name=<span class="code-quote">"desiredDeposit"</span> class=<span class="code-quote">"form-control"</span> required=""&gt;
+</pre>
+</div></div>
+<p>и нажимаем кнопку "Edit as HTML".</p></li>
+</ol>
+
+
+<ol>
+	<li>Добавляем в блок строку:
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+&lt;option value=<span class="code-quote">"1000010001000"</span>&gt;custom BCC&lt;/option&gt;
+</pre>
+</div></div>
+<p>содержащую значение &lt;option value=&gt;, название и закрываем окно редактирования.<br/>
+ <b><em>Пример:</em></b></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+&lt;select id=<span class="code-quote">"desiredDeposit"</span> name=<span class="code-quote">"desiredDeposit"</span> class=<span class="code-quote">"form-control"</span> required=""&gt;
+                            &lt;option id=<span class="code-quote">"deposit-title"</span> value=<span class="code-quote">"" disabled="</span><span class="code-quote">" selected="</span>"&gt;Select your initial deposit (required)&lt;/option&gt;
+                            &lt;option value=<span class="code-quote">"1000"</span>&gt;1.000 BCC&lt;/option&gt;
+                            &lt;option value=<span class="code-quote">"5000"</span>&gt;5.000 BCC&lt;/option&gt;
+                            &lt;option value=<span class="code-quote">"10000"</span>&gt;10.000 BCC&lt;/option&gt;
+                            &lt;option value=<span class="code-quote">"1000010001000"</span>&gt;custom BCC&lt;/option&gt;
+                            
+                        &lt;/select&gt;
+</pre>
+</div></div></li>
+</ol>
+
+
+<ol>
+	<li>Нажимаем на выпадающий список депозита.</li>
+	<li>Выбираем добавленный депозит.</li>
+	<li>Заканчиваем регистрацию нажав кнопку "Register".</li>
+	<li>Заходим в только что созданный аккаунт.</li>
+	<li>Проверяем значение BCC balance.</li>
+	<li>Покупаем 1 коин CC.</li>
+	<li>Проверяем значение BCC balance.</li>
+</ol>
+
+
+<p>Актуальный результат.</p>
+<ol>
+	<li>Переходим в форму регистрации аккаунта.</li>
+	<li>Поля email, password заполнены.</li>
+	<li>Открывается Devtools на id элемента "desiredDeposit"</li>
+	<li>Раскрывается окно для редактирования.</li>
+	<li>В списке &lt;option value&gt; появляется добавленное значение.</li>
+	<li>В раскрывающемся списке депозита присутствует добавленный депозит.</li>
+	<li>Депозит выбран.</li>
+	<li>Регистрация аккаунта происходит.</li>
+	<li>Осуществляется переход в аккаунт.</li>
+	<li>Значение BCC balance установлено 1000010001000</li>
+	<li>Коин покупается</li>
+	<li>BCC balance уменьшается на стоимость приобретенного коина.</li>
+</ol>
+
+
+<p>Ожидаемый результат.</p>
+<ol>
+	<li>Отсутствует возможность редактирования тэга значений депозита (скрыт/хранится на сервере и т.д.).</li>
+	<li>Выпадающий список значения депозита неизменен.</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Tue Aug 10 12:28:15 UTC 2021 by Николай М using Jira 8.2.2#802002-sha1:62e11fd4e3e0854fa206c8b64c089caf8e49350a.
+
+</body>
+</html>
